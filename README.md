@@ -2,7 +2,7 @@
 
 ```
 $ vagrant up
-$ eval $(./docker-env.sh)
+$ eval $(./bin/docker-env.sh)
 $ docker ps
 ...
 $ vagrant halt

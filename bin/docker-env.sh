@@ -13,5 +13,5 @@ EOT
 }
 
 cat <<EOT
-tcp://$(get_ip eth1):2375
+export DOCKER_HOST="tcp://$(get_ip eth1):2375"
 EOT
